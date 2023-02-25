@@ -1,0 +1,60 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  max-height: 1080px;
+  max-width: 1440px;
+  text-align: center;
+}
+
+:root{
+  /* Global Primary Text Color Variables */
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --teal: hsl(166, 100%, 37%);
+  --cobalt: hsl(234, 85%, 45%);
+
+  /* Global Summary Panel Background Color Variables (Transparent) */
+  --red-bg: hsla(0, 100%, 67%, 0.05);
+  --orange-yellow-bg: hsla(39, 100%, 56%, 0.05);
+  --teal-bg: hsla(166, 100%, 37%, 0.05);
+  --cobalt-bg: hsla(234, 85%, 45%, 0.05);
+
+  /* Gradients Background Variables */
+  --panel-gradient: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+
+  /* Gradients Circle Variables */
+  --circle-gradient: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  /* Neutral Color Variables */
+  --pale-blue: hsl(221, 100%, 96%);
+  --lavender: hsl(241, 100%, 89%);
+  --gray-blue: hsl(224, 30%, 27%);
+
+}
+
+body{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: hsl(0, 0%, 100%);
+  font-family: 'Hanken Grotesk';
+
+}
+
+body p{
+  font-size: 18px;
+}
+
+
+

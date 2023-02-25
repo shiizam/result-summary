@@ -1,0 +1,180 @@
+.panel{
+  display: flex;
+  background: white;
+  height: auto;
+  width: 750px;
+  border-radius: 25px;
+  box-shadow: 5px 15px 30px 5px var(--pale-blue);
+}
+
+.panel p{
+  font-size: 18px;
+}
+
+.result-panel{
+  background: var(--panel-gradient);
+  justify-self: left;
+  border-radius: 25px;
+}
+.result-title{
+  color: var(--lavender);
+  padding: 2.5rem 0rem 2rem;
+  color: hsla(221, 100%, 96%, 0.7);
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.circle{
+  background: var(--circle-gradient);
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.user-score{
+  display: relative;
+  justify-content: center;
+  padding-top: 3.5rem;
+  color: white;
+  align-items: center;
+  font-weight: 800;
+  font-size: 75px;
+  line-height: 75px;
+}
+
+.total-points{
+  color: hsla(241, 100%, 89%, 0.5);
+}
+
+.great{
+  color: white;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.score-comparison{
+  display: fixed;
+  color: var(--lavender);
+  padding: 1rem 3.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* SUMMARY PANEL STYLES */
+.summary-title{
+  color: var(--gray-blue);
+  margin: 2.5rem 2.5rem 1rem 2.5rem ;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: left;
+}
+
+/* SUMMARY SUB-TITLE FONT STYLE */
+.summary-panel p{
+  font-weight: 700;
+}
+
+/* SUMMARY SUB-TITLE STYLE */
+.test-title{
+  margin: 0;
+  margin-right: 4rem;
+}
+
+/* SUMMARY SUB-SCORE STYLES */
+.test-score{
+  color: var(--gray-blue);
+  font-weight: 800;
+  margin-right: 0.5rem ;
+}
+
+#react-score,
+#memory-score{
+  margin-left: 2rem;
+}
+
+#verb-score,
+#vis-score{
+  margin-left: 3rem;
+}
+/* SUMMARY SUB-TOTAL SCORE STYLES */
+.react-total,
+.memory-total,
+.verb-total, 
+.vis-total{
+  margin: 0;
+  font-weight: 800;
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+/* SUMMARY SUB-PANELS STYLE */
+.summary-tests{
+  display: flex;
+  margin: 0.5rem 2.5rem 1rem 2.5rem;
+  height: 55px;
+  width: 300px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+/* TEST ELEMENT COLORS STYLE */
+#reaction{
+  position: relative;
+  background: var(--red-bg);
+  margin: 2rem 2.5rem 1rem 2.5rem;
+}
+
+
+#react-title{
+  color: var(--light-red);
+}
+
+#memory{
+  background: var(--orange-yellow-bg);
+}
+
+#memory-title{
+  color: var(--orange-yellow);
+}
+
+#verbal{
+  background: var(--teal-bg);
+}
+
+#verb-title{
+  color: var(--teal);
+}
+
+#visual{
+  background: var(--cobalt-bg);
+}
+
+#vis-title{
+  color: var(--cobalt);
+}
+
+/* SUMMARY SUB-TEST ICONS STYLE */
+svg{
+  margin-right: 0;
+  margin: 1rem;
+}
+
+/* BUTTON STYLE */
+.continue-btn{
+  display: flex;
+  background: var(--gray-blue);
+  margin: 2.5rem 2.5rem 2.5rem 2.5rem;
+  height: 55px;
+  width: 300px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Hanken Grotesk';
+  color: hsl(0, 0%, 100%);
+}
+
+.continue-btn:hover{
+  background: var(--panel-gradient);
+  cursor: pointer;
+}
+
+
